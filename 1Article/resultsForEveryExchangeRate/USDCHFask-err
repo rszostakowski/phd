@@ -1,0 +1,646 @@
+/usr/bin/python2.7 /home/rob/Pulpit/PythonProjects/phdproject/TimeSeriesForecasting/src/main/firstarticle/SecondRnD.py
+*****************************************USDCHF*****************************************
+Checking if hurst was calculated before for this file
+Hurst exponent and price diff already calculated
+Garbage collection thresholds: (700, 10, 10)
+Garbage collector: collected 0 objects.
+Starting calculation one day forecasting using arma model
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [-0.01322662  0.52537438 -0.10370249 -0.53746927]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(0,1), with paramters: [-0.10848381]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(0,1), with paramters: [-0.08263894]
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(1,1), with paramters: [-0.27610891  0.16228327]
+Exception model Arma(1,2) cannot be calculated
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(2,1), with paramters: [ 0.81953008  0.09209247 -0.89727572]
+Best model was arma(2,2), with paramters: [ 0.81661741 -0.23684855 -0.85717724  0.29415385]
+Best model was arma(2,2), with paramters: [ 0.4762418  -0.41104022 -0.49108759  0.47230404]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(1,2), with paramters: [ 0.48663384 -0.51948054  0.05582463]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(1,2), with paramters: [ 0.8032829  -0.82325853  0.04628073]
+Best model was arma(1,1), with paramters: [ 0.74825039 -0.70679397]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(1,2), with paramters: [ 0.34619654 -0.32792978  0.03015365]
+Exception model Arma(1,2) cannot be calculated
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(1,1), with paramters: [ 0.65097646 -0.61193308]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 1.38455513 -0.58453016 -1.41032311  0.63879939]
+Best model was arma(2,2), with paramters: [ 1.08194685 -0.3981549  -1.1045355   0.44909367]
+Best model was arma(1,2), with paramters: [ 0.5888275  -0.61078361  0.08220577]
+Best model was arma(2,2), with paramters: [ 1.23274351 -0.42704629 -1.22896643  0.4511613 ]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 1.20581906 -0.45872934 -1.17224732  0.46789368]
+Exception model Arma(1,1) cannot be calculated
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(0,2), with paramters: [-0.01599602  0.02950975]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 1.14403569 -0.40689894 -1.16130606  0.44866196]
+Best model was arma(1,2), with paramters: [ 0.37285735 -0.38131272  0.05316873]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(2,1), with paramters: [ 0.47161473  0.03620879 -0.50244911]
+Best model was arma(2,1), with paramters: [ 0.30902982  0.33465188 -0.83556451]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 0.78996865  0.14626462 -0.97789693  0.00635735]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(1,0), with paramters: [-0.12329552]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(0,1), with paramters: [-0.10989708]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,1) cannot be calculated
+Best model was arma(1,0), with paramters: [-0.18647613]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(0,2), with paramters: [-0.09206072 -0.03743603]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(1,1), with paramters: [-0.39270951  0.34842416]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(1,0), with paramters: [-0.06833351]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [-0.55332393 -0.43298519  0.46577499  0.41898262]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(0,2), with paramters: [-0.08381475  0.02061043]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,0), with paramters: [-0.0525794   0.05726386]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 0.64231288 -0.18129973 -0.73339303  0.27967899]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 0.3640836  -0.26684897 -0.43984819  0.32861035]
+Best model was arma(1,2), with paramters: [ 0.18065633 -0.24902989  0.08001089]
+Best model was arma(2,2), with paramters: [ 0.49819742 -0.22664398 -0.53465478  0.30193507]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(0,2), with paramters: [-0.04485094  0.02058888]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 0.70107749 -0.32987702 -0.73798879  0.38419761]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(0,2), with paramters: [-0.07024419  0.03208889]
+Best model was arma(2,2), with paramters: [ 0.97160964 -0.41872426 -1.00439798  0.47512482]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 0.77806154 -0.35505909 -0.81708883  0.41856169]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(1,2) cannot be calculated
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,1), with paramters: [ 0.91056018  0.02116827 -0.9537129 ]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(0,2), with paramters: [-0.10402993  0.02887226]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(1,0), with paramters: [-0.04020458]
+Finished calculation one day forecasting using arma model
+--------------------------ERR ARMA RECALCULATED EVERY YYY VALUES-----------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00000621       0.00000000       0.00000000       0.00000679       0.00000339
+From 0.1 to 0.2        0.00000590       0.00000000       0.00000000       0.00000645       0.00000322
+From 0.2 to 0.3        0.00000571       0.00000000       0.00000000       0.00000624       0.00000312
+From 0.3 to 0.4        0.00000560       0.00000000       0.00000000       0.00000612       0.00000306
+From 0.4 to 0.5        0.00000539       0.00000000       0.00000000       0.00000589       0.00000295
+From 0.5 to 0.6        0.00000537       0.00000000       0.00000000       0.00000587       0.00000294
+From 0.6 to 0.7        0.00000526       0.00000000       0.00000000       0.00000575       0.00000287
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+Starting calculation one day forecasting using arima model
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [-0.01312281  0.52548225 -0.10378511 -0.53756326]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,1), with paramters: [-0.10849276]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,1), with paramters: [-0.08262465]
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,1), with paramters: [-0.27582915  0.16206748]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,2), with paramters: [-0.07583115  0.03161724]
+Best model was arima(2,2), with paramters: [ 0.81672962 -0.23690355 -0.85729786  0.29421435]
+Best model was arima(2,2), with paramters: [ 0.47608752 -0.4112606  -0.49095413  0.47253372]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,2), with paramters: [ 0.48646112 -0.51929647  0.05579732]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(1,2), with paramters: [ 0.80332994 -0.82329609  0.04625955]
+Best model was arima(1,1), with paramters: [ 0.74827697 -0.70681396]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(1,2), with paramters: [ 0.34625791 -0.3279922   0.03014617]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,1), with paramters: [ 0.65090981 -0.61187359]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 1.38453171 -0.58437827 -1.41028479  0.63862906]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 1.08214341 -0.39821078 -1.10471068  0.44912596]
+Best model was arima(1,2), with paramters: [ 0.58884837 -0.61078044  0.08219073]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 1.23270165 -0.42694522 -1.22892436  0.45105972]
+Best model was arima(2,2), with paramters: [ 1.20603169 -0.45890522 -1.17244775  0.46805083]
+Exception model Arma(1,1) cannot be calculated
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,2), with paramters: [-0.01594077  0.02951259]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 1.14680343 -0.41073405 -1.16440649  0.45285859]
+Best model was arima(1,2), with paramters: [ 0.37287706 -0.38133209  0.05316212]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,2), with paramters: [-0.03121635  0.01954307]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,1), with paramters: [ 0.30894178  0.33462397 -0.8355082 ]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,1), with paramters: [-0.18306089]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,0), with paramters: [-0.12323862]
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,1), with paramters: [-0.10990489]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,0), with paramters: [-0.18647356]
+Best model was arima(0,2), with paramters: [-0.09205666 -0.03744103]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,1), with paramters: [-0.39262773  0.34834928]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,0), with paramters: [-0.06831897]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,2), with paramters: [-0.08985322  0.04028581]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,2), with paramters: [-0.08382033  0.02062249]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,0), with paramters: [-0.05258428  0.05726439]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 0.64182649 -0.18096683 -0.73293895  0.27935582]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 0.36382181 -0.26697554 -0.43963059  0.32870489]
+Best model was arima(1,2), with paramters: [ 0.1807084  -0.24909081  0.08001217]
+Best model was arima(2,2), with paramters: [ 0.49826816 -0.22668406 -0.53471767  0.30197917]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,2), with paramters: [-0.04485363  0.02060229]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 0.71535596 -0.33270662 -0.75150679  0.3866213 ]
+Exception model Arma(1,2) cannot be calculated
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(2,1), with paramters: [ 0.41297267  0.06389202 -0.4819051 ]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 0.9717673  -0.41888179 -1.00455453  0.47526439]
+Best model was arima(2,2), with paramters: [ 0.7781474  -0.35508752 -0.81716914  0.41858347]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,1), with paramters: [ 0.91980018 -0.94499146]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(0,2), with paramters: [-0.10403799  0.02886112]
+Exception model Arma(1,2) cannot be calculated
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,0), with paramters: [-0.04020493]
+Finished calculation one day forecasting using arima model
+-----------------------------------------ERR ARIMA RECALCULATED EVERY YYY VALUES ------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00000620       0.00000000       0.00000000       0.00000678       0.00000339
+From 0.1 to 0.2        0.00000589       0.00000000       0.00000000       0.00000644       0.00000322
+From 0.2 to 0.3        0.00000570       0.00000000       0.00000000       0.00000623       0.00000311
+From 0.3 to 0.4        0.00000559       0.00000000       0.00000000       0.00000611       0.00000305
+From 0.4 to 0.5        0.00000538       0.00000000       0.00000000       0.00000588       0.00000294
+From 0.5 to 0.6        0.00000535       0.00000000       0.00000000       0.00000585       0.00000293
+From 0.6 to 0.7        0.00000521       0.00000000       0.00000000       0.00000569       0.00000285
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+-----------------------------------------ERR NAIVE -----------------------------------------
+Starting calculation one day forecasts using naive method
+Finished calculation one day forecasts using naive method
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00000578       0.00000000       0.00000000       0.00000632       0.00000316
+From 0.1 to 0.2        0.00000549       0.00000000       0.00000000       0.00000600       0.00000300
+From 0.2 to 0.3        0.00000533       0.00000000       0.00000000       0.00000582       0.00000291
+From 0.3 to 0.4        0.00000523       0.00000000       0.00000000       0.00000572       0.00000286
+From 0.4 to 0.5        0.00000504       0.00000000       0.00000000       0.00000551       0.00000275
+From 0.5 to 0.6        0.00000501       0.00000000       0.00000000       0.00000548       0.00000274
+From 0.6 to 0.7        0.00000444       0.00000000       0.00000000       0.00000486       0.00000243
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+Garbage collector: collected 0 objects.
+Starting calculation one day forecasting using moving average forecasting
+Calculated minimal amape was 5.35e-06 and was calculated for 3 period
+Calculated minimal amape was 4.49e-06 and was calculated for 3 period
+Calculated minimal amape was 4.56e-06 and was calculated for 3 period
+Calculated minimal amape was 4.58e-06 and was calculated for 3 period
+Calculated minimal amape was 4.78e-06 and was calculated for 3 period
+Calculated minimal amape was 4.24e-06 and was calculated for 3 period
+Calculated minimal amape was 4.27e-06 and was calculated for 3 period
+Calculated minimal amape was 3.79e-06 and was calculated for 3 period
+Calculated minimal amape was 3.6e-06 and was calculated for 3 period
+Calculated minimal amape was 3.22e-06 and was calculated for 3 period
+Calculated minimal amape was 3.28e-06 and was calculated for 3 period
+Calculated minimal amape was 3.61e-06 and was calculated for 3 period
+Calculated minimal amape was 4.37e-06 and was calculated for 3 period
+Calculated minimal amape was 3.63e-06 and was calculated for 3 period
+Calculated minimal amape was 3.86e-06 and was calculated for 3 period
+Calculated minimal amape was 4.74e-06 and was calculated for 3 period
+Calculated minimal amape was 3.68e-06 and was calculated for 3 period
+Calculated minimal amape was 3.52e-06 and was calculated for 3 period
+Calculated minimal amape was 3.83e-06 and was calculated for 3 period
+Calculated minimal amape was 4.12e-06 and was calculated for 3 period
+Calculated minimal amape was 4.81e-06 and was calculated for 3 period
+Calculated minimal amape was 8.39e-06 and was calculated for 3 period
+Calculated minimal amape was 4.44e-06 and was calculated for 3 period
+Calculated minimal amape was 4.65e-06 and was calculated for 3 period
+Calculated minimal amape was 5.32e-06 and was calculated for 3 period
+Calculated minimal amape was 4.23e-06 and was calculated for 3 period
+Calculated minimal amape was 4.53e-06 and was calculated for 3 period
+Calculated minimal amape was 4.42e-06 and was calculated for 3 period
+Calculated minimal amape was 4.88e-06 and was calculated for 3 period
+Calculated minimal amape was 4.7e-06 and was calculated for 3 period
+Calculated minimal amape was 5.41e-06 and was calculated for 3 period
+Calculated minimal amape was 4.83e-06 and was calculated for 3 period
+Calculated minimal amape was 4.88e-06 and was calculated for 3 period
+Calculated minimal amape was 4.79e-06 and was calculated for 3 period
+Calculated minimal amape was 4.76e-06 and was calculated for 3 period
+Calculated minimal amape was 4.86e-06 and was calculated for 3 period
+Calculated minimal amape was 5.32e-06 and was calculated for 3 period
+Calculated minimal amape was 4.9e-06 and was calculated for 3 period
+Calculated minimal amape was 4.59e-06 and was calculated for 3 period
+Calculated minimal amape was 3.95e-06 and was calculated for 3 period
+Calculated minimal amape was 4.92e-06 and was calculated for 3 period
+Calculated minimal amape was 4.54e-06 and was calculated for 3 period
+Calculated minimal amape was 4.7e-06 and was calculated for 3 period
+Calculated minimal amape was 4.27e-06 and was calculated for 3 period
+Finished calculation one day forecasting using moving average forecasting
+-----------------------------------------ERR MOVING AVERAGE-----------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00000845       0.00000000       0.00000000       0.00000923       0.00000462
+From 0.1 to 0.2        0.00000832       0.00000000       0.00000000       0.00000909       0.00000454
+From 0.2 to 0.3        0.00000806       0.00000000       0.00000000       0.00000881       0.00000441
+From 0.3 to 0.4        0.00000798       0.00000000       0.00000000       0.00000872       0.00000436
+From 0.4 to 0.5        0.00000781       0.00000000       0.00000000       0.00000854       0.00000427
+From 0.5 to 0.6        0.00000794       0.00000000       0.00000000       0.00000868       0.00000434
+From 0.6 to 0.7        0.00001037       0.00000000       0.00000000       0.00001133       0.00000567
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+Garbage collector: collected 0 objects.
+Starting calculation one day forecasting using linear regression
+Calculated minimal amape was 6.75e-06 and was calculated for 9 period
+Calculated minimal amape was 5.59e-06 and was calculated for 9 period
+Calculated minimal amape was 5.53e-06 and was calculated for 9 period
+Calculated minimal amape was 5.42e-06 and was calculated for 9 period
+Calculated minimal amape was 5.69e-06 and was calculated for 9 period
+Calculated minimal amape was 5.28e-06 and was calculated for 9 period
+Calculated minimal amape was 5.37e-06 and was calculated for 9 period
+Calculated minimal amape was 4.74e-06 and was calculated for 9 period
+Calculated minimal amape was 4.54e-06 and was calculated for 9 period
+Calculated minimal amape was 4.24e-06 and was calculated for 9 period
+Calculated minimal amape was 4.32e-06 and was calculated for 9 period
+Calculated minimal amape was 4.62e-06 and was calculated for 9 period
+Calculated minimal amape was 5.21e-06 and was calculated for 9 period
+Calculated minimal amape was 4.58e-06 and was calculated for 9 period
+Calculated minimal amape was 4.81e-06 and was calculated for 9 period
+Calculated minimal amape was 5.78e-06 and was calculated for 9 period
+Calculated minimal amape was 4.68e-06 and was calculated for 9 period
+Calculated minimal amape was 4.55e-06 and was calculated for 9 period
+Calculated minimal amape was 4.86e-06 and was calculated for 9 period
+Calculated minimal amape was 5.28e-06 and was calculated for 9 period
+Calculated minimal amape was 5.91e-06 and was calculated for 9 period
+Calculated minimal amape was 9.88e-06 and was calculated for 9 period
+Calculated minimal amape was 5.54e-06 and was calculated for 9 period
+Calculated minimal amape was 5.77e-06 and was calculated for 9 period
+Calculated minimal amape was 6.47e-06 and was calculated for 9 period
+Calculated minimal amape was 5.2e-06 and was calculated for 9 period
+Calculated minimal amape was 5.61e-06 and was calculated for 9 period
+Calculated minimal amape was 5.66e-06 and was calculated for 9 period
+Calculated minimal amape was 6.01e-06 and was calculated for 9 period
+Calculated minimal amape was 5.82e-06 and was calculated for 9 period
+Calculated minimal amape was 6.79e-06 and was calculated for 9 period
+Calculated minimal amape was 5.88e-06 and was calculated for 9 period
+Calculated minimal amape was 5.86e-06 and was calculated for 9 period
+Calculated minimal amape was 5.95e-06 and was calculated for 9 period
+Calculated minimal amape was 5.9e-06 and was calculated for 9 period
+Calculated minimal amape was 6.21e-06 and was calculated for 9 period
+Calculated minimal amape was 6.52e-06 and was calculated for 9 period
+Calculated minimal amape was 6.18e-06 and was calculated for 9 period
+Calculated minimal amape was 5.72e-06 and was calculated for 9 period
+Calculated minimal amape was 4.97e-06 and was calculated for 9 period
+Calculated minimal amape was 6.18e-06 and was calculated for 9 period
+Calculated minimal amape was 5.82e-06 and was calculated for 9 period
+Calculated minimal amape was 5.79e-06 and was calculated for 9 period
+Calculated minimal amape was 5.61e-06 and was calculated for 9 period
+Finished calculation one day forecasting using linear regression
+-----------------------------------------ERR LINEAR REGRESSION-----------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00001048       0.00000000       0.00000000       0.00001146       0.00000573
+From 0.1 to 0.2        0.00001044       0.00000000       0.00000000       0.00001141       0.00000570
+From 0.2 to 0.3        0.00001003       0.00000000       0.00000000       0.00001097       0.00000548
+From 0.3 to 0.4        0.00000983       0.00000000       0.00000000       0.00001074       0.00000537
+From 0.4 to 0.5        0.00000968       0.00000000       0.00000000       0.00001059       0.00000529
+From 0.5 to 0.6        0.00000957       0.00000000       0.00000000       0.00001046       0.00000523
+From 0.6 to 0.7        0.00001522       0.00000000       0.00000000       0.00001663       0.00000831
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+Garbage collector: collected 0 objects.
+Starting calculation one day forecasting using exponential smoothing forecasting
+Calculated minimal amape was 4.79e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.28e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.31e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.36e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.53e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.02e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.04e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.6e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.43e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.06e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.11e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.42e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.15e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.46e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.67e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.49e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.5e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.34e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.66e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.91e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.54e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 8.17e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.24e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.44e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 5.02e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.06e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.28e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.16e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.58e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.43e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 5.08e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.52e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.63e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.57e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.52e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.61e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 5e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.64e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.34e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 3.75e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.67e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.27e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.47e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 4.04e-06 and was calculated for 0.5 alpha
+Finished calculation one day forecasting using exponential smoothing forecasting
+---------------------------------------ERR EXPONENTIAL SMOOTHING---------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00000802       0.00000000       0.00000000       0.00000876       0.00000438
+From 0.1 to 0.2        0.00000789       0.00000000       0.00000000       0.00000862       0.00000431
+From 0.2 to 0.3        0.00000765       0.00000000       0.00000000       0.00000837       0.00000418
+From 0.3 to 0.4        0.00000756       0.00000000       0.00000000       0.00000827       0.00000413
+From 0.4 to 0.5        0.00000739       0.00000000       0.00000000       0.00000807       0.00000404
+From 0.5 to 0.6        0.00000752       0.00000000       0.00000000       0.00000823       0.00000411
+From 0.6 to 0.7        0.00001000       0.00000000       0.00000000       0.00001093       0.00000546
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+Garbage collector: collected 0 objects.
+Garbage collector: collected 0 objects.
+Starting calculation one day forecasting using kalman filter forecasting
+Calculated minimal amape was 4.42e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.88e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.89e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.98e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.1e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.55e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.55e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.2e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 2.99e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 2.63e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 2.68e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 2.97e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.69e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.04e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.23e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.93e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.04e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 2.93e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.19e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.44e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.06e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 7.87e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.92e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.09e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.54e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.76e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.87e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.7e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.16e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.93e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.52e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.06e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.23e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.13e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.05e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.06e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.45e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.11e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.86e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.36e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.15e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.83e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 4.06e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 3.61e-06 and was calculated for 0.1 q value and 0.1 r value
+Finished calculation one day forecasting using kalman filter forecasting
+-----------------------------------------ERR_Kalman_Filter-----------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00000723       0.00000000       0.00000000       0.00000790       0.00000395
+From 0.1 to 0.2        0.00000705       0.00000000       0.00000000       0.00000770       0.00000385
+From 0.2 to 0.3        0.00000683       0.00000000       0.00000000       0.00000747       0.00000374
+From 0.3 to 0.4        0.00000674       0.00000000       0.00000000       0.00000736       0.00000368
+From 0.4 to 0.5        0.00000658       0.00000000       0.00000000       0.00000719       0.00000360
+From 0.5 to 0.6        0.00000671       0.00000000       0.00000000       0.00000733       0.00000367
+From 0.6 to 0.7        0.00000800       0.00000000       0.00000000       0.00000874       0.00000437
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+Garbage collector: collected 0 objects.
+Garbage collector: collected 0 objects.
+Garbage collection thresholds: (700, 10, 10)
+2.43e-06
+8.31e-06
+The end of calculation
+
+Process finished with exit code 0
+

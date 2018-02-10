@@ -1,0 +1,512 @@
+/usr/bin/python2.7 /home/rob/Pulpit/PythonProjects/phdproject/TimeSeriesForecasting/src/main/firstarticle/SecondRnD.py
+*****************************************AUDCAD*****************************************
+Checking if hurst was calculated before for this file
+Hurst exponent and price diff already calculated
+Plotting hurst exponent chart
+Starting calculation one day forecasting using logistic_regression forecasting
+Calculated 0 of 14 intervals
+Calculated maximal accuracy was 0.4545 and was calculated for 3 number of lags
+Calculated 1 of 14 intervals
+Calculated maximal accuracy was 0.5371 and was calculated for 3 number of lags
+Calculated 2 of 14 intervals
+Calculated maximal accuracy was 0.5061 and was calculated for 3 number of lags
+Calculated 3 of 14 intervals
+Calculated maximal accuracy was 0.4997 and was calculated for 3 number of lags
+Calculated 4 of 14 intervals
+Calculated maximal accuracy was 0.4784 and was calculated for 3 number of lags
+Calculated 5 of 14 intervals
+Calculated maximal accuracy was 0.4881 and was calculated for 3 number of lags
+Calculated 6 of 14 intervals
+Calculated maximal accuracy was 0.3816 and was calculated for 3 number of lags
+Calculated 7 of 14 intervals
+Calculated maximal accuracy was 0.3969 and was calculated for 6 number of lags
+Calculated 8 of 14 intervals
+Calculated maximal accuracy was 0.4693 and was calculated for 3 number of lags
+Calculated 9 of 14 intervals
+Calculated maximal accuracy was 0.4664 and was calculated for 3 number of lags
+Calculated 10 of 14 intervals
+Calculated maximal accuracy was 0.4858 and was calculated for 3 number of lags
+Calculated 11 of 14 intervals
+Calculated maximal accuracy was 0.4983 and was calculated for 3 number of lags
+Calculated 12 of 14 intervals
+Calculated maximal accuracy was 0.5066 and was calculated for 3 number of lags
+Calculated 13 of 14 intervals
+Calculated maximal accuracy was 0.5087 and was calculated for 3 number of lags
+Finished calculation one day forecasting using logistic_regression forecasting
+--------------------------ACC Logistic regression-----------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.4695
+From 0.1 to 0.2            0.4835
+From 0.2 to 0.3            0.4767
+From 0.3 to 0.4            0.4809
+From 0.4 to 0.5            0.4880
+From 0.5 to 0.6            0.4000
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+Starting calculation one day forecasting using linear discriminant analysis forecasting
+Calculated maximal accuracy was 0.4489 and was calculated for 3 number of lags
+Calculated maximal accuracy was 0.4904 and was calculated for 9 number of lags
+Calculated maximal accuracy was 0.4841 and was calculated for 15 number of lags
+Calculated maximal accuracy was 0.4849 and was calculated for 3 number of lags
+Calculated maximal accuracy was 0.4405 and was calculated for 3 number of lags
+Calculated maximal accuracy was 0.4464 and was calculated for 3 number of lags
+Calculated maximal accuracy was 0.3527 and was calculated for 12 number of lags
+Calculated maximal accuracy was 0.3732 and was calculated for 3 number of lags
+Calculated maximal accuracy was 0.4488 and was calculated for 3 number of lags
+Calculated maximal accuracy was 0.4661 and was calculated for 3 number of lags
+Calculated maximal accuracy was 0.4647 and was calculated for 9 number of lags
+Calculated maximal accuracy was 0.4685 and was calculated for 18 number of lags
+Calculated maximal accuracy was 0.4745 and was calculated for 9 number of lags
+Calculated maximal accuracy was 0.4704 and was calculated for 3 number of lags
+Finished calculation one day forecasting using linear discriminant analysis forecasting
+--------------------------ACC Linear discriminant analysis-----------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.4441
+From 0.1 to 0.2            0.4559
+From 0.2 to 0.3            0.4551
+From 0.3 to 0.4            0.4546
+From 0.4 to 0.5            0.4566
+From 0.5 to 0.6            0.4000
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+Starting calculation one day forecasting using arma model
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(2,1), with paramters: [-0.26916655  0.13054304 -0.3940416 ]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 0.45870335  0.40409428 -0.97583362  0.04260099]
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(1,2), with paramters: [-0.57256636  0.22708852 -0.10633278]
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(1,1), with paramters: [-0.10804947 -0.13813411]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(1,2), with paramters: [-0.4752716   0.17067965 -0.06769104]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,2) cannot be calculated
+Best model was arma(2,1), with paramters: [ 0.57267458  0.23362154 -0.9034003 ]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 0.61921047  0.13585527 -0.9688949   0.08876523]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 0.64356129  0.15149462 -1.11627964  0.1918022 ]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+Best model was arma(2,2), with paramters: [-0.40258554 -0.14315393 -0.11177884 -0.07497183]
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(1,2), with paramters: [-0.2476466  -0.33101462 -0.21487565]
+Best model was arma(2,2), with paramters: [ 0.96196794 -0.15794287 -1.32053703  0.40727933]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,1), with paramters: [ 0.32605365  0.11300659 -0.78138321]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,1), with paramters: [ 0.32638316  0.10501879 -0.78435187]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arma(2,2), with paramters: [ 0.53394745  0.06746525 -1.05092697  0.19110265]
+Finished calculation one day forecasting using arma model
+--------------------------ERR ARMA RECALCULATED EVERY YYY VALUES-----------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00003678       0.00000000       0.00000000       0.00003473       0.00001736
+From 0.1 to 0.2        0.00003438       0.00000000       0.00000000       0.00003246       0.00001623
+From 0.2 to 0.3        0.00003526       0.00000000       0.00000000       0.00003328       0.00001664
+From 0.3 to 0.4        0.00003094       0.00000000       0.00000000       0.00002920       0.00001460
+From 0.4 to 0.5        0.00003000       0.00000000       0.00000000       0.00002831       0.00001416
+From 0.5 to 0.6        0.00002096       0.00000000       0.00000000       0.00001975       0.00000987
+From 0.6 to 0.7               nan              nan              nan              nan              nan
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+--------------------------ACC ARMA RECALCULATED EVERY YYY VALUES-----------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.2638
+From 0.1 to 0.2            0.2540
+From 0.2 to 0.3            0.2564
+From 0.3 to 0.4            0.2563
+From 0.4 to 0.5            0.2518
+From 0.5 to 0.6            0.1724
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+Starting calculation one day forecasting using arima model
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(2,1), with paramters: [-0.26865796  0.13082106 -0.39442014]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 0.45866723  0.40402108 -0.97578664  0.0426179 ]
+Exception model Arma(2,1) cannot be calculated
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(1,2), with paramters: [-0.57270023  0.22720859 -0.10637037]
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,1), with paramters: [-0.10803396 -0.1381603 ]
+Exception model Arma(2,1) cannot be calculated
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(1,2), with paramters: [-0.47543949  0.17086879 -0.06775356]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Exception model Arma(2,2) cannot be calculated
+Best model was arima(2,1), with paramters: [ 0.57268243  0.23362609 -0.90340614]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 0.61936667  0.13582899 -0.96907827  0.08887423]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 0.64358176  0.15149169 -1.11630272  0.19181549]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [-0.40252714 -0.14297831 -0.11176563 -0.07506313]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(1,2), with paramters: [-0.24722973 -0.33159825 -0.21463032]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 0.96212608 -0.15805581 -1.32069995  0.40741457]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,1), with paramters: [ 0.32604986  0.1129843  -0.78138498]
+Best model was arima(2,1), with paramters: [ 0.32641618  0.10503458 -0.78437079]
+/usr/local/lib/python2.7/dist-packages/statsmodels/base/model.py:466: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+Best model was arima(2,2), with paramters: [ 0.53419533  0.06740235 -1.05114641  0.19125321]
+Finished calculation one day forecasting using arima model
+-----------------------------------------ERR ARIMA RECALCULATED EVERY YYY VALUES ------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00003678       0.00000000       0.00000000       0.00003473       0.00001736
+From 0.1 to 0.2        0.00003438       0.00000000       0.00000000       0.00003246       0.00001623
+From 0.2 to 0.3        0.00003526       0.00000000       0.00000000       0.00003328       0.00001664
+From 0.3 to 0.4        0.00003094       0.00000000       0.00000000       0.00002920       0.00001460
+From 0.4 to 0.5        0.00003000       0.00000000       0.00000000       0.00002831       0.00001416
+From 0.5 to 0.6        0.00002096       0.00000000       0.00000000       0.00001974       0.00000987
+From 0.6 to 0.7               nan              nan              nan              nan              nan
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+-----------------------------------------ACC ARIMA RECALCULATED EVERY YYY VALUES ------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.2638
+From 0.1 to 0.2            0.2540
+From 0.2 to 0.3            0.2564
+From 0.3 to 0.4            0.2563
+From 0.4 to 0.5            0.2518
+From 0.5 to 0.6            0.1724
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+-----------------------------------------ERR NAIVE -----------------------------------------
+Starting calculation one day forecasts using naive method
+Finished calculation one day forecasts using naive method
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00002932       0.00000000       0.00000000       0.00002768       0.00001384
+From 0.1 to 0.2        0.00002722       0.00000000       0.00000000       0.00002569       0.00001285
+From 0.2 to 0.3        0.00002802       0.00000000       0.00000000       0.00002644       0.00001322
+From 0.3 to 0.4        0.00002464       0.00000000       0.00000000       0.00002325       0.00001163
+From 0.4 to 0.5        0.00002337       0.00000000       0.00000000       0.00002206       0.00001103
+From 0.5 to 0.6        0.00001483       0.00000000       0.00000000       0.00001397       0.00000698
+From 0.6 to 0.7               nan              nan              nan              nan              nan
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+-------------------------------------ACC RANDOM FORECASTING_UP_OR_DOWN------------------------------
+Starting calculation one day forecasts using random forecasting up down
+Finished calculation one day forecasts using random forecasting
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.2622
+From 0.1 to 0.2            0.2614
+From 0.2 to 0.3            0.2616
+From 0.3 to 0.4            0.2646
+From 0.4 to 0.5            0.2549
+From 0.5 to 0.6            0.0690
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+-------------------------------ACC RANDOM FORECASTING_UP_DOWN_WITHOUT_CHANGE-------------------------------
+Starting calculation one day forecasts using random forecasting up down without change
+Finished calculation one day forecasts using random forecasting up down without change
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.3350
+From 0.1 to 0.2            0.3313
+From 0.2 to 0.3            0.3394
+From 0.3 to 0.4            0.3419
+From 0.4 to 0.5            0.3478
+From 0.5 to 0.6            0.4138
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+Starting calculation one day forecasting using quadratic moving average forecasting
+Calculated minimal amape was 1.527e-05 and was calculated for 3 period
+Calculated minimal amape was 1.047e-05 and was calculated for 3 period
+Calculated minimal amape was 9.51e-06 and was calculated for 3 period
+Calculated minimal amape was 1.151e-05 and was calculated for 3 period
+Calculated minimal amape was 1.104e-05 and was calculated for 3 period
+Calculated minimal amape was 1.116e-05 and was calculated for 3 period
+Calculated minimal amape was 1.193e-05 and was calculated for 3 period
+Calculated minimal amape was 1.461e-05 and was calculated for 3 period
+Calculated minimal amape was 2.143e-05 and was calculated for 3 period
+Calculated minimal amape was 2.253e-05 and was calculated for 3 period
+Calculated minimal amape was 1.858e-05 and was calculated for 3 period
+Calculated minimal amape was 1.819e-05 and was calculated for 3 period
+Calculated minimal amape was 1.86e-05 and was calculated for 3 period
+Calculated minimal amape was 1.913e-05 and was calculated for 3 period
+Finished calculation one day forecasting using moving average forecasting
+-----------------------------------------ERR MOVING AVERAGE-----------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00003347       0.00000000       0.00000000       0.00003160       0.00001580
+From 0.1 to 0.2        0.00003192       0.00000000       0.00000000       0.00003014       0.00001507
+From 0.2 to 0.3        0.00003247       0.00000000       0.00000000       0.00003065       0.00001533
+From 0.3 to 0.4        0.00002994       0.00000000       0.00000000       0.00002826       0.00001413
+From 0.4 to 0.5        0.00002854       0.00000000       0.00000000       0.00002694       0.00001347
+From 0.5 to 0.6        0.00001333       0.00000000       0.00000000       0.00001255       0.00000628
+From 0.6 to 0.7               nan              nan              nan              nan              nan
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+-----------------------------------------ACC MOVING AVERAGE-----------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.4227
+From 0.1 to 0.2            0.4144
+From 0.2 to 0.3            0.4186
+From 0.3 to 0.4            0.4140
+From 0.4 to 0.5            0.4253
+From 0.5 to 0.6            0.5000
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+Starting calculation one day forecasting using linear regression
+Calculated minimal amape was 1.757e-05 and was calculated for 9 period
+Calculated minimal amape was 1.199e-05 and was calculated for 9 period
+Calculated minimal amape was 1.132e-05 and was calculated for 9 period
+Calculated minimal amape was 1.361e-05 and was calculated for 9 period
+Calculated minimal amape was 1.324e-05 and was calculated for 9 period
+Calculated minimal amape was 1.322e-05 and was calculated for 9 period
+Calculated minimal amape was 1.395e-05 and was calculated for 9 period
+Calculated minimal amape was 1.625e-05 and was calculated for 9 period
+Calculated minimal amape was 2.454e-05 and was calculated for 9 period
+Calculated minimal amape was 2.623e-05 and was calculated for 9 period
+Calculated minimal amape was 2.145e-05 and was calculated for 9 period
+Calculated minimal amape was 2.094e-05 and was calculated for 9 period
+Calculated minimal amape was 2.126e-05 and was calculated for 9 period
+Calculated minimal amape was 2.183e-05 and was calculated for 9 period
+Finished calculation one day forecasting using linear regression
+-----------------------------------------ERR LINEAR REGRESSION-----------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00003863       0.00000000       0.00000000       0.00003648       0.00001824
+From 0.1 to 0.2        0.00003701       0.00000000       0.00000000       0.00003494       0.00001747
+From 0.2 to 0.3        0.00003796       0.00000000       0.00000000       0.00003583       0.00001792
+From 0.3 to 0.4        0.00003456       0.00000000       0.00000000       0.00003262       0.00001631
+From 0.4 to 0.5        0.00003195       0.00000000       0.00000000       0.00003016       0.00001508
+From 0.5 to 0.6        0.00001861       0.00000000       0.00000000       0.00001752       0.00000876
+From 0.6 to 0.7               nan              nan              nan              nan              nan
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+-----------------------------------------ACC LINEAR REGRESSION-----------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.3216
+From 0.1 to 0.2            0.3084
+From 0.2 to 0.3            0.3130
+From 0.3 to 0.4            0.3126
+From 0.4 to 0.5            0.3373
+From 0.5 to 0.6            0.3000
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+Starting calculation one day forecasting using exponential smoothing forecasting
+Calculated minimal amape was 1.489e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.018e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 9.05e-06 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.079e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.035e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.051e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.119e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.398e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 2.06e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 2.12e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.742e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.723e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.768e-05 and was calculated for 0.5 alpha
+Calculated minimal amape was 1.845e-05 and was calculated for 0.5 alpha
+Finished calculation one day forecasting using exponential smoothing forecasting
+---------------------------------------ERR EXPONENTIAL SMOOTHING---------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00003178       0.00000000       0.00000000       0.00003001       0.00001500
+From 0.1 to 0.2        0.00003032       0.00000000       0.00000000       0.00002863       0.00001431
+From 0.2 to 0.3        0.00003086       0.00000000       0.00000000       0.00002914       0.00001457
+From 0.3 to 0.4        0.00002827       0.00000000       0.00000000       0.00002668       0.00001334
+From 0.4 to 0.5        0.00002718       0.00000000       0.00000000       0.00002565       0.00001283
+From 0.5 to 0.6        0.00001476       0.00000000       0.00000000       0.00001390       0.00000695
+From 0.6 to 0.7               nan              nan              nan              nan              nan
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+---------------------------------------ACC_EXPONENTIAL SMOOTHING---------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.3504
+From 0.1 to 0.2            0.3323
+From 0.2 to 0.3            0.3394
+From 0.3 to 0.4            0.3382
+From 0.4 to 0.5            0.3325
+From 0.5 to 0.6            0.5000
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+Starting calculation one day forecasting using kalman filter forecasting
+Calculated minimal amape was 1.459e-05 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 9.86e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 8.49e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 1.005e-05 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 9.7e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 9.95e-06 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 1.062e-05 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 1.364e-05 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 2.017e-05 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 2.048e-05 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 1.672e-05 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 1.665e-05 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 1.713e-05 and was calculated for 0.1 q value and 0.1 r value
+Calculated minimal amape was 1.802e-05 and was calculated for 0.1 q value and 0.1 r value
+Finished calculation one day forecasting using kalman filter forecasting
+-----------------------------------------ERR_Kalman_Filter-----------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval              MAE              MSE             RMSD             MAPE            AMAPE
+From 0.0 to 0.1        0.00003062       0.00000000       0.00000000       0.00002892       0.00001446
+From 0.1 to 0.2        0.00002912       0.00000000       0.00000000       0.00002749       0.00001374
+From 0.2 to 0.3        0.00002973       0.00000000       0.00000000       0.00002807       0.00001404
+From 0.3 to 0.4        0.00002708       0.00000000       0.00000000       0.00002556       0.00001278
+From 0.4 to 0.5        0.00002589       0.00000000       0.00000000       0.00002444       0.00001222
+From 0.5 to 0.6        0.00001433       0.00000000       0.00000000       0.00001349       0.00000675
+From 0.6 to 0.7               nan              nan              nan              nan              nan
+From 0.7 to 0.8               nan              nan              nan              nan              nan
+From 0.8 to 0.9               nan              nan              nan              nan              nan
+From 0.9 to 1.0               nan              nan              nan              nan              nan
+****************************************************************************************************
+
+-----------------------------------------ACC_Kalman_Filter-----------------------------------------
+
+**************************************Printing forecast errors**************************************
+Hurst interval         Accuracy
+From 0.0 to 0.1            0.3504
+From 0.1 to 0.2            0.3335
+From 0.2 to 0.3            0.3408
+From 0.3 to 0.4            0.3360
+From 0.4 to 0.5            0.3241
+From 0.5 to 0.6            0.5000
+From 0.6 to 0.7               nan
+From 0.7 to 0.8               nan
+From 0.8 to 0.9               nan
+From 0.9 to 1.0               nan
+****************************************************************************************************
+
+6.28e-06
+1.824e-05
+0.069
+0.5
+The end of calculation
+
+Process finished with exit code 0
+
